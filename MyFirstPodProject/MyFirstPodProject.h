@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface MyFirstPodProject : NSObject
+@interface MyFirstPodProject : NSObject{
+    
+}
 
+- (void) getValueFromPOD;
 @end

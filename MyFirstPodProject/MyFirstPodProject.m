@@ -9,5 +9,7 @@
 #import "MyFirstPodProject.h"
 
 @implementation MyFirstPodProject
-
+- (void) getValueFromPOD{
+    NSLog(@"PODreply");
+}
 @end

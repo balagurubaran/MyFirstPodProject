@@ -9,18 +9,7 @@
 /* Begin PBXBuildFile section */
 		78A6C6C01A6830C400C999FC /* MyFirstPodProject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78A6C6BF1A6830C400C999FC /* MyFirstPodProject.h */; };
 		78A6C6C21A6830C400C999FC /* MyFirstPodProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A6C6C11A6830C400C999FC /* MyFirstPodProject.m */; };
-		78A6C6C81A6830C400C999FC /* libMyFirstPodProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A6C6BC1A6830C400C999FC /* libMyFirstPodProject.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		78A6C6C91A6830C400C999FC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78A6C6B41A6830C400C999FC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 78A6C6BB1A6830C400C999FC;
-			remoteInfo = MyFirstPodProject;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		78A6C6BA1A6830C400C999FC /* CopyFiles */ = {
@@ -39,7 +28,6 @@
 		78A6C6BC1A6830C400C999FC /* libMyFirstPodProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMyFirstPodProject.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A6C6BF1A6830C400C999FC /* MyFirstPodProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFirstPodProject.h; sourceTree = "<group>"; };
 		78A6C6C11A6830C400C999FC /* MyFirstPodProject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstPodProject.m; sourceTree = "<group>"; };
-		78A6C6C71A6830C400C999FC /* MyFirstPodProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstPodProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A6C6CD1A6830C400C999FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,14 +36,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78A6C6C41A6830C400C999FC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				78A6C6C81A6830C400C999FC /* libMyFirstPodProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				78A6C6BC1A6830C400C999FC /* libMyFirstPodProject.a */,
-				78A6C6C71A6830C400C999FC /* MyFirstPodProjectTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,24 +104,6 @@
 			productReference = 78A6C6BC1A6830C400C999FC /* libMyFirstPodProject.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		78A6C6C61A6830C400C999FC /* MyFirstPodProjectTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 78A6C6D31A6830C400C999FC /* Build configuration list for PBXNativeTarget "MyFirstPodProjectTests" */;
-			buildPhases = (
-				78A6C6C31A6830C400C999FC /* Sources */,
-				78A6C6C41A6830C400C999FC /* Frameworks */,
-				78A6C6C51A6830C400C999FC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				78A6C6CA1A6830C400C999FC /* PBXTargetDependency */,
-			);
-			name = MyFirstPodProjectTests;
-			productName = MyFirstPodProjectTests;
-			productReference = 78A6C6C71A6830C400C999FC /* MyFirstPodProjectTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -153,9 +114,6 @@
 				ORGANIZATIONNAME = iappscrazy;
 				TargetAttributes = {
 					78A6C6BB1A6830C400C999FC = {
-						CreatedOnToolsVersion = 6.1.1;
-					};
-					78A6C6C61A6830C400C999FC = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
@@ -173,20 +131,9 @@
 			projectRoot = "";
 			targets = (
 				78A6C6BB1A6830C400C999FC /* MyFirstPodProject */,
-				78A6C6C61A6830C400C999FC /* MyFirstPodProjectTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		78A6C6C51A6830C400C999FC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		78A6C6B81A6830C400C999FC /* Sources */ = {
@@ -197,22 +144,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78A6C6C31A6830C400C999FC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		78A6C6CA1A6830C400C999FC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 78A6C6BB1A6830C400C999FC /* MyFirstPodProject */;
-			targetProxy = 78A6C6C91A6830C400C999FC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		78A6C6CE1A6830C400C999FC /* Debug */ = {
@@ -292,8 +224,10 @@
 		78A6C6D11A6830C400C999FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iOS Development: balagurubaran kalingarayan (23U832RS9A)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b8b7b8c3-a9d6-4732-a612-1c2324f8ac5d";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -301,39 +235,11 @@
 		78A6C6D21A6830C400C999FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iOS Development: balagurubaran kalingarayan (23U832RS9A)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b8b7b8c3-a9d6-4732-a612-1c2324f8ac5d";
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		78A6C6D41A6830C400C999FC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MyFirstPodProjectTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		78A6C6D51A6830C400C999FC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MyFirstPodProjectTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -354,14 +260,6 @@
 			buildConfigurations = (
 				78A6C6D11A6830C400C999FC /* Debug */,
 				78A6C6D21A6830C400C999FC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		78A6C6D31A6830C400C999FC /* Build configuration list for PBXNativeTarget "MyFirstPodProjectTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				78A6C6D41A6830C400C999FC /* Debug */,
-				78A6C6D51A6830C400C999FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
