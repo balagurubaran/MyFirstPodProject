@@ -1,12 +1,13 @@
-Pod::Spec.new do |spec|
-  spec.name             = ‘MyFirstPodProject’
-  spec.version          = ‘0.0.1’
-  spec.license          =  :type => 'BSD' 
-  spec.homepage         = 'https://github.com/balagurubaran/MyFirstPodProject'
-  spec.authors          = ‘Balagurubaran’ => ‘iappscrazy@gmail.com'
-  spec.summary          = 'ARC and GCD Compatible Reachability Class for iOS and OS X.'
-  spec.source           =  :git => 'https://github.com/balagurubaran/MyFirstPodPorject.git', :tag => 'v0.0.1’ 
-  spec.source_files     = ‘MyFirstPodProject.h,m’
-  spec.framework        = 'SystemConfiguration'
-  spec.requires_arc     = true
+Pod::Spec.new do |s|
+  s.name       		  = 'MyFirstPodProject'
+  s.version    		  = '0.0.1'
+  s.authors       	  = { 'Balagurubaran' => 'gurubalak@gmail.com' }
+  s.summary      	  = 'MyFirstPodProject is customizable iOS 7 styled.'
+  s.homepage    	  = 'https://github.com/balagurubaran/MyFirstPodProject'
+  s.license     	  = 'MIT'
+  s.ios.deployment_target = '6.0'
+  s.source       	  = { :git => 'https://github.com/balagurubaran/MyFirstPodProject.git', :tag => '0.0.1' }
+  s.source_files 	  = 'MyFirstPodProject/MyFirstPodProject/*/*.{h,m}'
+  s.public_header_files   = 'MyFirstPodProject/MyFirstPodProject/*/*.h'
+  s.requires_arc 	  = true
 end
