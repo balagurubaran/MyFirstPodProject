@@ -12,5 +12,5 @@
     
 }
 
-- (void) getValueFromPOD;
+- (NSString*) getValueFromPOD;
 @end
