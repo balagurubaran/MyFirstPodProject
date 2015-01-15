@@ -10,6 +10,6 @@
 
 @implementation MyFirstPodProject
 - (NSString*) getValueFromPOD{
-    return "From pod project"
+    return @"From pod project";
 }
 @end
